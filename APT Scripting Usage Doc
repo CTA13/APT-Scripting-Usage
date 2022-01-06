@@ -1,0 +1,31 @@
+<h1>APT Script Usage</h1>
+
+<h2>Overview</h2>
+<p>The Purpose of this document is to show users how to manage application packages using the APT script (Advanced Packaging Tool) and Repoman functions in Pop!_OS. </p>
+
+<h2>APT Scripts</h2>
+
+<p>APT scripting can be used to execute many commands when managing applications in the terminal. These commands are crucial so software can be installed or updated so packages function properly. It provides the same functionality as specialized APT tools, like apt-get and apt-cache, but enables more configurable options.</p>
+
+<p>Most commonly used commands:<p/>
+<ol>
+ <il>‘list’ - list packages based on package names</il>
+ <il>‘search’ - search in package descriptions</il>
+ <il>‘show’ - show package details</il>
+ <il>‘install’ - install packages</il>
+ <il>‘reinstall’ - reinstall packages</il>
+ <il>‘remove’ - remove packages</il>
+ <il>‘autoremove’ - Remove automatically all unused packages</il>
+ <il>‘update’ - update list of available packages</il>
+ <il> ‘upgrade’ - upgrade the system by installing/upgrading packages</il>
+ <il>‘full-upgrade’ - upgrade the system by removing/installing/upgrading packages</il>
+ <il> ‘edit-sources’ - edit the source information file</il>
+ <il> ‘satisfy’ - satisfy dependency strings</il>
+</ol>
+
+
+<h2>Manually Manage Packages Using Repoman</h2>
+
+<p>If a user is having issues executing the APT scripts, Repoman can be used to manually manage packages.<br /> To launch Repoman, type <code>repoman<code/> into the terminal or by clicking the gear button in the top right corner of the Pop!_Shop. Once Repoman is open, select the “Extra Sources” tab to start managing packages. Here, sources can be edited, added or deleted manually.</p>
+
+
