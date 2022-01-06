@@ -5,7 +5,7 @@
 
 <h2>APT Scripts</h2>
 
-<p>APT scripting can be used to execute many commands when managing applications in the terminal. These commands are crucial so software can be installed or updated so packages function properly. It provides the same functionality as specialized APT tools, like apt-get and apt-cache, but enables more configurable options.</p>
+<p>APT scripting can be used to execute many commands when managing applications in the terminal. These commands are crucial for software to be installed or updated so packages function properly. It provides the same functionality as specialized APT tools, like <code>apt get</code> and <code>apt cache</code>, but enables more configurable options.</p>
 
 <p>Most commonly used commands:<p/>
 <ol>
@@ -22,8 +22,9 @@
   <il><code>edit-sources</code> - edit the source information file<br/>
   <il><code>satisfy</code> - satisfy dependency strings</il>
 </ol>
-
+<img src="https://media.giphy.com/media/jCctwYR7CHzcMLzdeE/giphy.gif"/>
 
 <h2>Manually Manage Packages Using Repoman</h2>
 
-<p>If a user is having issues executing the APT scripts, Repoman can be used to manually manage packages.<br /> To launch Repoman, type <code>repoman</code> into the terminal or by clicking the gear button in the top right corner of the Pop!_Shop. Once Repoman is open, select the “Extra Sources” tab to start managing packages. Here, sources can be edited, added or deleted manually.</p>
+<p>If a user is having issues executing the APT scripts, Repoman can be used to manually manage packages.<br /> To launch Repoman, type <code>repoman</code> into the terminal or by clicking the "Gear" button in the top right corner of the Pop!_Shop. Once Repoman is open, select the “Extra Sources” tab to start managing packages. Here, sources can be edited, added or deleted manually.</p>
+<img src="https://media.giphy.com/media/ziX1LUwoiNGPHi6csE/giphy.gif"/>
